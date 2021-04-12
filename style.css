@@ -93,7 +93,7 @@ div.modal {
 section.form {
   display: flex;
   width: 100%;
-  height: 80vh;
+  /* height: 80vh; */
   max-height: 800px;
 }
 
@@ -170,6 +170,8 @@ section.form .form-register form .register-button:hover {
 section.form .form-image {
   display: flex;
   flex: 1;
+  background-image: url('img/Illustration 4.jpg');
+  background-position: center top;
 }
 
 section.form .form-image img {
