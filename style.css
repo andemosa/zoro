@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+a:hover{
+  color: #e7332b !important;
+}
+
 html {
   font-family: "DM Sans", sans-serif;
   overflow-x: hidden;
@@ -99,6 +103,7 @@ section.form {
 
 section.form .form-register {
   flex: 1;
+  /* padding-left: 50px; */
 }
 
 form {
@@ -170,6 +175,8 @@ section.form .form-register form .register-button:hover {
 section.form .form-image {
   display: flex;
   flex: 1;
+  /* background-image: url('img/Illustration 4.jpg'); */
+  /* background-position: center top; */
 }
 
 section.form .form-image img {
@@ -182,15 +189,16 @@ section.form .form-image img {
 
 #affiliated,
 #testimonials {
-  padding: 0 1em;
   width: 90%;
-  margin: 2em auto;
+  margin: 0 auto;
+  padding-top: 70px;
+  padding-bottom: 50px;
 }
 
 .affiliated_container {
   background: #f3efef;
-  padding: 2em 0;
-  margin: 4em auto;
+  /* padding: 2em 0; */
+  /* margin: 4em auto; */
 }
 
 h2 {
@@ -299,13 +307,15 @@ footer a {
 .footer_socials {
   display: flex;
   margin-top: auto;
+  justify-content: flex-start;
 }
 
 .footer_icons {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0 0.5em;
+  margin-right: 10px;
+}
+
+.footer_icons a{
+  font-size: 22px;
 }
 
 @media (max-width: 1200px) {
